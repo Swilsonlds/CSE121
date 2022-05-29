@@ -2,7 +2,7 @@ const jokeHTML = document.querySelector('#joke')
 const jokeButton = document.querySelector('#GetJoke')
 // gets a new joke from the api //
 
-jokeButton.addEventListener("click", getJoke())
+jokeButton.addEventListener('click', getJoke)
 
 getJoke();
 
